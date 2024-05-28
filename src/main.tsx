@@ -6,7 +6,8 @@ import New from "./New.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    {/* <AdminDashboard /> */}
-    <New />
+    {/* <AdminDashboard /> */} // For the api
+    "https://hub.dummyapis.com/employee?noofRecords=1000 "
+    <New /> //For the api "https://tinyurl.com/dummyapi"
   </React.StrictMode>
 );
